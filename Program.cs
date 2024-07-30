@@ -15,7 +15,7 @@ builder.Services.AddDbContext<CampaignContext>(options =>
 
 builder.Services.AddHttpClient<ISoapClientService, SoapClientService>();
 builder.Services.AddScoped<ICsvService, CsvService>();
-
+builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<ICustomerService, CustomerService>();
 builder.Services.AddScoped<IAgentService, AgentService>();
 //builder.Services.AddScoped<IRewardService, RewardService>();

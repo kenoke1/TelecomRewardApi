@@ -14,7 +14,7 @@ namespace TelecomRewardsApi.Controllers
             _agentService = agentService;
         }
 
-        [HttpPost("{agentId}/reward")]
+        [HttpPost("{agentId}/reward/{customerId}")]
         public async Task<IActionResult> RewardCustomer(int agentId, int customerId, [FromBody] string rewardDescription)
         {
             var result = await _agentService.RewardCustomerAsync(agentId, customerId, rewardDescription);
