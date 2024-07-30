@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TelecomRewardsApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0556bbeeed2a9a2b1bef29dd1ddf942429a23072")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dade35f401c595fdb2d261fdf95a50b0545545aa")]
 [assembly: System.Reflection.AssemblyProductAttribute("TelecomRewardsApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TelecomRewardsApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
