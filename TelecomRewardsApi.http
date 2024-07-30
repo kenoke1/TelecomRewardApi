@@ -1,0 +1,6 @@
+@TelecomRewardsApi_HostAddress = http://localhost:5095
+
+GET {{TelecomRewardsApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
